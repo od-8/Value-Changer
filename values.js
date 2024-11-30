@@ -52,7 +52,7 @@ function weightFunction () {
         kg = parseFloat(document.getElementById('kilograms').value);
         g.value = (kg * 1000);
         lbs.value = (kg * 2.205);
-        st.value = (kg / 0.157);
+        st.value = (kg * 0.157);
     } else if (g && g.value) {
         g = parseFloat(document.getElementById('grams').value);
         kg.value = (g / 1000);
